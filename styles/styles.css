@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Symphony CG';
+    src: url("files/symphony.otf") format("opentype"); 
+}
+
+body {
+    background: rgb(239,230,221);
+}
+
+header {
+    background: rgb(255,255,255);
+}
+
+h1 {
+    font-family: 'Symphony CG';
+}
+
+footer {
+    font-family: 'Symphony CG';
+}
+
+hr {
+    border: 2.5px solid rgb(37,33,34);
+    width: 60vw;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 0.5em;
+}
+
+nav {
+    align-self: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.toolbar {
+    color: rgb(37,33,34);
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(187,68,48);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    margin-right: 0.5vw;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#maincenter {
+    display: flex;
+    justify-content: center;
+}
+
+.borderimage {
+    border: 5px solid rgb(187,68,48);
+    border-radius: 10px 10px 10px 10px;
+    height: 20vw;
+}
+
+.text {
+    background: rgb(255,255,255);
+    border-radius: 10px 10px 10px 10px;
+    padding: 0.5em;
+    font-family: Verdana, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, sans-serif;
+    margin-left: 10vw;
+    margin-right:10vw;
+}
+
+#mainlogo {
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    margin: 0.5em;
+}
+
+#mainimage {
+    margin: 1em;
+}
