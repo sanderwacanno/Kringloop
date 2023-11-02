@@ -66,6 +66,22 @@ nav {
     margin-right:10vw;
 }
 
+.otherlogo {
+    height: 10vw;
+}
+
+.toolbarcollumn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-evenly;
+}
+
+.logonexttotool {
+    display: flex;
+    justify-content: center;
+}
+
 #mainlogo {
     height: 20vw;
     display: flex;
@@ -75,4 +91,8 @@ nav {
 
 #mainimage {
     margin: 1em;
+}
+
+#records {
+    width: 100vw;
 }
