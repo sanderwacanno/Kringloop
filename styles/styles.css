@@ -5,6 +5,7 @@
 
 body {
     background: rgb(239,230,221);
+    border-radius: 5px 5px 5px 5px;
 }
 
 header {
@@ -67,19 +68,21 @@ nav {
 }
 
 .otherlogo {
-    height: 10vw;
+    height: 20vh;
 }
 
 .toolbarcollumn {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    align-content: space-evenly;
+    justify-content: space-evenly;
+    height: 20vh;
+    width: 30vh;
 }
 
 .logonexttotool {
     display: flex;
     justify-content: center;
+    height: 20vh;
 }
 
 #mainlogo {
