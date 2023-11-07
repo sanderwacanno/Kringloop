@@ -76,8 +76,8 @@ nav {
 
 .otherlogo {
     height: 20vh;
-    pointer-events: none;
-    user-select: none;
+    /* pointer-events: none;
+    user-select: none; */
 }
 
 .toolbarcollumn {
