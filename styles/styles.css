@@ -8,11 +8,18 @@ body {
     border-radius: 5px 5px 5px 5px;
 }
 
+
+.greenbg body {
+    background: #7ebdc2;
+    border-radius: 5px 5px 5px 5px;
+}
+
 header {
     background: rgb(255,255,255);
 }
 
 h1 {
+    margin-top: 0.25em;
     font-family: 'Symphony CG';
 }
 
@@ -76,7 +83,7 @@ nav {
     flex-direction: column;
     justify-content: space-evenly;
     height: 20vh;
-    width: 30vh;
+    width: 35vh;
 }
 
 .logonexttotool {
@@ -98,4 +105,25 @@ nav {
 
 #records {
     width: 100vw;
+    position: sticky;
+    top: 20%;
+}
+
+.logohover .logohovertext {
+    font-family: 'Symphony CG';
+    visibility: hidden;
+    width: 150px;
+    background-color: rgb(37,33,34);
+    color: rgb(239,230,221);
+    text-align: center;
+    border-radius: 5px;
+    padding: 0.5em;
+
+    position: absolute;
+    z-index: 1;
+    right: 55%;
+}
+
+.logohover:hover .logohovertext {
+    visibility: visible;
 }
