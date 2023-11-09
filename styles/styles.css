@@ -19,6 +19,11 @@ h1 {
     font-family: 'Symphony CG';
 }
 
+h2 {
+    margin-top: 0.25em;
+    font-family: 'Symphony CG';
+}
+
 
 hr {
     border: 2.5px solid rgb(37,33,34);
@@ -60,6 +65,7 @@ nav {
     font-family: Verdana, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, sans-serif;
     margin-left: 10vw;
     margin-right:10vw;
+    margin-bottom: 1em;
 }
 
 .otherlogo {
