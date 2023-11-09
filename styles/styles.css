@@ -98,9 +98,9 @@ nav {
     margin: 0.5em;
 }
 
-#mainimage {
+.mainimage {
     margin: 1em;
-    width: 40%;
+    width: 60%;
     min-width: 350px;
     height: auto;
 }
