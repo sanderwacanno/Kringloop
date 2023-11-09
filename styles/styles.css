@@ -4,15 +4,9 @@
 }
 
 body {
-    /* background: url("../images/records.jpg");
-    background-repeat: no-repeat; */
     background: rgb(239,230,221);
     border-radius: 5px 5px 5px 5px;
 }
-/* 
-header {
-    /* background: rgb(255,255,255); */
-/* } */ */
 
 .greenbg body {
     background: #7ebdc2;
@@ -75,8 +69,6 @@ nav {
 
 .otherlogo {
     height: 20vh;
-    /* pointer-events: none;
-    user-select: none; */
 }
 
 .toolbarcollumn {
@@ -110,12 +102,6 @@ nav {
     width: 40%;
     min-width: 350px;
     height: auto;
-}
-
-#records {
-    height: 40vh;
-    position: sticky;
-    top: 20%;
 }
 
 .intextimage {
